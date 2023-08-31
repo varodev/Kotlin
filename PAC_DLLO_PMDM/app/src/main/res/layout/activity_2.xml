@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/degradado"
+    tools:context=".Activity2">
+
+    <Button
+        android:id="@+id/btnModif"
+        android:layout_width="174dp"
+        android:layout_height="74dp"
+        android:text="modificar     datos del paciente"
+        app:layout_constraintBottom_toTopOf="@+id/btnDelete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnQuery" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="174dp"
+        android:layout_height="74dp"
+        android:text="Eliminiar    datos del paciente"
+        app:layout_constraintBottom_toTopOf="@+id/btnBack2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnModif" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="174dp"
+        android:layout_height="74dp"
+        android:text="Insertar    Datos del paciente"
+        app:layout_constraintBottom_toTopOf="@+id/btnQuery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBack2"
+        android:layout_width="174dp"
+        android:layout_height="74dp"
+        android:text="VOLVER      ACTIVITY 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDelete" />
+
+    <Button
+        android:id="@+id/btnQuery"
+        android:layout_width="174dp"
+        android:layout_height="74dp"
+        android:text="Consultar Datos del paciente"
+        app:layout_constraintBottom_toTopOf="@+id/btnModif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInsert" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
